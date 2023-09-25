@@ -1,0 +1,75 @@
+
+/* Style the form container */
+#registration-form,
+#login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style form submit button */
+input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style form submit button on hover */
+input[type="submit"]:hover {
+    background-color: #005ab4;
+}
+
+/* Adjust table width as needed */
+.custom-user-list {
+    width: 100%;
+}
+
+/* Style table headers */
+.custom-user-list th {
+    background-color: #f2f2f2;
+}
+
+/* Style table rows */
+.custom-user-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style links */
+.custom-user-list a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.custom-user-list a:hover {
+    text-decoration: underline;
+}
+
+.registration-error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
